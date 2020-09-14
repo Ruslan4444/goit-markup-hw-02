@@ -190,3 +190,44 @@
 .adress-item:focus {
   color: #2196f3;
 }
+
+/* main portfolio */
+.works {
+  background-color: #ffffff;
+}
+
+.list-button:hover,
+.list-button:focus,
+.list-button:active {
+  background-color: #2196f3;
+}
+.list-button:active {
+  color: #ffffff;
+}
+.list-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.work-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.work-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
