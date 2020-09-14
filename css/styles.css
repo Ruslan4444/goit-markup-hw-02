@@ -9,6 +9,7 @@
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: #000000;
+  text-decoration: none;
 }
 .accent {
   font-family: Raleway;
@@ -18,6 +19,7 @@
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: #2196f3;
+  text-decoration: none;
 }
 .site-nav .nav-item {
   font-family: Roboto;
@@ -169,6 +171,7 @@
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: #ffffff;
+  text-decoration: none;
 }
 .adress-item {
   font-family: Roboto;
