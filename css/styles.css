@@ -202,8 +202,6 @@ a {
 .list-button:focus,
 .list-button:active {
   background-color: #2196f3;
-}
-.list-button:active {
   color: #ffffff;
 }
 .list-button {
