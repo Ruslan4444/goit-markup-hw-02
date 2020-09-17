@@ -1,9 +1,14 @@
-/* primary text-color  */
-
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+}
 .list {
   list-style: none;
 }
-a {
+.adress {
+  font-style: normal;
+}
+.link {
   text-decoration: none;
 }
 /* header */
