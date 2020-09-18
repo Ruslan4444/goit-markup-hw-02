@@ -3,6 +3,8 @@
   --secondary-font: Raleway, normal, sans-serif;
   --accent-color: #2196f3;
   --title-text-color: #212121;
+  --description-text-color: #757575;
+  --main-background-color: #ffffff;
 }
 
 body {
@@ -10,9 +12,6 @@ body {
 }
 .list {
   list-style: none;
-}
-.adress {
-  font-style: normal;
 }
 .link {
   text-decoration: none;
@@ -50,7 +49,7 @@ body {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--description-text-color);
 }
 .contacts-item:hover,
 .contacts-item:focus {
@@ -79,7 +78,7 @@ body {
 }
 /* features */
 .features {
-  background-color: #ffffff;
+  background-color: var(--main-background-color);
 }
 .features-title {
   font-weight: 700;
@@ -94,11 +93,11 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--description-text-color);
 }
 /* Specialization */
 .specialization {
-  background-color: #ffffff;
+  background-color: var(--main-background-color);
 }
 .specialization-title {
   font-weight: 700;
@@ -133,13 +132,14 @@ body {
   font-size: 16px;
   line-height: 1.188;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--description-text-color);
 }
 /* footer */
 .footer {
   background-color: #2f303a;
 }
-.adress-map {
+.adress-map,
+.adress-item {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -155,10 +155,6 @@ body {
   color: #ffffff;
 }
 .adress-item {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.171;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .adress-map:hover,
@@ -172,7 +168,7 @@ body {
 
 /* main portfolio */
 .works {
-  background-color: #ffffff;
+  background-color: var(--main-background-color);
 }
 
 .list-button:hover,
@@ -200,5 +196,5 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--description-text-color);
 }
