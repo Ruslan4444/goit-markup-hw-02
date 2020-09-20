@@ -5,10 +5,25 @@
   --title-text-color: #212121;
   --description-text-color: #757575;
   --main-background-color: #ffffff;
+  --header-logo-color: #000000;
+  --footer-logo-color: #ffffff;
+  --nav-link-color: #212121;
+  --hero-background-color: #2f303a;
+  --hero-title-color: #ffffff;
+  --button-color: #ffffff;
+  --ourteam-background-color: #f5f4fa;
+  --team-member-color: #212121;
+  --footer-background-color: #2f303a;
+  --list-button-color: #212121;
+  --adress-text-color: #ffffff;
+  --adress-item-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
   font-family: var(--main-font);
+}
+.adress {
+  font-style: normal;
 }
 .list {
   list-style: none;
@@ -17,24 +32,26 @@ body {
   text-decoration: none;
 }
 /* header */
-.logo,
-.accent {
+.logo {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  color: #000000;
-}
-.accent {
   color: var(--accent-color);
+}
+.header-logo {
+  color: var(--header-logo-color);
+}
+.footer-logo {
+  color: var(--footer-logo-color);
 }
 .site-nav .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--nav-link-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -57,7 +74,7 @@ body {
 }
 /* hero */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--hero-background-color);
 }
 .hero-title {
   font-weight: 900;
@@ -66,15 +83,15 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--hero-title-color);
 }
 .hero-button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--button-color);
+  background: var(--accent-color);
 }
 /* features */
 .features {
@@ -110,7 +127,7 @@ body {
 
 /* team */
 .ourteam {
-  background-color: #f5f4fa;
+  background-color: var(--ourteam-background-color);
 }
 .team-title {
   font-weight: 700;
@@ -125,7 +142,7 @@ body {
   font-size: 16px;
   line-height: 1.188;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--team-member-color);
 }
 .team-position {
   font-weight: 400;
@@ -136,7 +153,7 @@ body {
 }
 /* footer */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--footer-background-color);
 }
 .adress-map,
 .adress-item {
@@ -144,18 +161,10 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
-}
-.footer-logo {
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--adress-text-color);
 }
 .adress-item {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--adress-item-color);
 }
 .adress-map:hover,
 .adress-map:focus {
@@ -175,14 +184,14 @@ body {
 .list-button:focus,
 .list-button:active {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--button-color);
 }
 .list-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--list-button-color);
 }
 .work-title {
   font-weight: 700;
