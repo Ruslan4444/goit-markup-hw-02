@@ -2,5 +2,10 @@
 :root {
 }
 body {
+  color: #757575;
+  background-color: #ffffff;
+
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 /* BUTTON CSS */
