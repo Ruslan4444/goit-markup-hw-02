@@ -102,3 +102,11 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
+/* ----------- WHAT WE DO ------------*/
+.work-title {
+  color: var(--tittle-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
