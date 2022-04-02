@@ -178,6 +178,10 @@ body {
   border: 1px solid;
   border-color: #eeeeee;
 }
+.gallery-link:hover,
+.gallery-link:focus {
+  background-color: var(--accent-color);
+}
 .gallery-item-title {
   color: var(--tittle-text-color);
 
@@ -188,6 +192,7 @@ body {
 }
 .gallery-item-text {
   color: var(--primary-text-color);
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
 }
