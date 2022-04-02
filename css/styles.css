@@ -1,11 +1,72 @@
 /* COMMON CSS */
+
+/* BUTTON CSS */
+
 :root {
+  --primary-text-color: #757575;
+  --tittle-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --background-white-color: #ffffff;
+  --background-grey-color: #2f303a;
 }
 body {
-  color: #757575;
-  background-color: #ffffff;
+  background-color: var(--background-white-color);
+  color: var(--primary-text-color);
 
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
-/* BUTTON CSS */
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/* ----------- LOGO ------------*/
+.logo {
+  font-family: 'Raleway', sans-serif;
+  color: #000000;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-text {
+  color: var(--accent-color);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+/* ----------- nav-list ------------*/
+.nav-link {
+  color: var(--tittle-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+.nav-link.current {
+  color: var(--accent-color);
+}
+/* ----------- contacts-list ------------*/
+.contacts-link {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+/* ----------- HERO ------------*/
