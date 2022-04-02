@@ -29,6 +29,8 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+
+  cursor: pointer;
 }
 /* ----------- LOGO ------------*/
 .logo {
@@ -133,4 +135,26 @@ body {
   font-size: 16px;
   line-height: 1.17;
   text-align: center;
+}
+/* ----------- FOOTER ------------*/
+.footer {
+  background-color: var(--background-secondary-color);
+}
+
+.logo-footer {
+  color: var(--primary-white-color);
+}
+.address-link {
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+
+  font-size: 14px;
+  line-height: 1.71;
+}
+.address-link.map {
+  color: var(--primary-white-color);
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
 }
