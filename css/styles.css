@@ -19,9 +19,15 @@ body {
 }
 .link {
   text-decoration: none;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 /* BUTTON CSS */
 .btn {
+  font-family: inherit;
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 
@@ -51,11 +57,6 @@ body {
 /* ----------- nav-list ------------*/
 .nav-link {
   color: var(--tittle-text-color);
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -67,11 +68,6 @@ body {
 /* ----------- contacts-list ------------*/
 .contacts-link {
   color: var(--primary-text-color);
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 .contacts-link:hover,
 .contacts-link:focus {
@@ -148,7 +144,6 @@ body {
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
 
-  font-size: 14px;
   line-height: 1.71;
 }
 .address-link.map {
@@ -157,4 +152,42 @@ body {
 .address-link:hover,
 .address-link:focus {
   color: var(--accent-color);
+}
+
+/* ----------- PORTFOLIO ------------*/
+.page-list-btn {
+  background-color: #f5f4fa;
+  color: var(--tittle-text-color);
+
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+
+  border: none;
+}
+.page-list-btn:hover,
+.page-list-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+.page-list-btn.active {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+.gallery-item {
+  border: 1px solid;
+  border-color: #eeeeee;
+}
+.gallery-item-title {
+  color: var(--tittle-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.gallery-item-text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.88;
 }
