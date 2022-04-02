@@ -110,3 +110,27 @@ body {
   font-size: 36px;
   line-height: 1.17;
 }
+/* ----------- OUR TEAM ------------*/
+.team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  color: var(--tittle-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+.team-item-title {
+  color: var(--tittle-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.team-item-text {
+  font-size: 16px;
+  line-height: 1.17;
+  text-align: center;
+}
