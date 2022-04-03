@@ -3,13 +3,13 @@
   --primary-text-color: #757575;
   --tittle-text-color: #212121;
   --accent-color: #2196f3;
-  --primary-white-color: #ffffff;
-  --background-white-color: #ffffff;
-  --background-secondary-color: #2f303a;
-  --btn-hover-color: #188ce8;
+  --primary-color: #ffffff;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #2f303a;
+  --btn-hover-bgcolor: #188ce8;
 }
 body {
-  background-color: var(--background-white-color);
+  background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
 
   font-family: Roboto, sans-serif;
@@ -26,11 +26,12 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 /* BUTTON CSS */
 .btn {
   font-family: inherit;
   background-color: var(--accent-color);
-  color: var(--primary-white-color);
+  color: var(--primary-color);
 
   font-weight: 700;
   font-size: 16px;
@@ -41,8 +42,9 @@ body {
 }
 .btn:hover,
 .btn:focus {
-  background-color: var(--btn-hover-color);
+  background-color: var(--btn-hover-bgcolor);
 }
+
 /* ----------- LOGO ------------*/
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -80,10 +82,10 @@ body {
 }
 /* ----------- HERO ------------*/
 .hero {
-  background-color: var(--background-secondary-color);
+  background-color: var(--secondary-bg-color);
 }
 .hero-title {
-  color: var(--primary-white-color);
+  color: var(--primary-color);
 
   font-weight: 900;
   font-size: 44px;
@@ -139,11 +141,11 @@ body {
 }
 /* ----------- FOOTER ------------*/
 .footer {
-  background-color: var(--background-secondary-color);
+  background-color: var(--secondary-bg-color);
 }
 
 .logo-footer {
-  color: var(--primary-white-color);
+  color: var(--primary-color);
 }
 .address-link {
   font-style: normal;
@@ -152,7 +154,7 @@ body {
   line-height: 1.71;
 }
 .address-link.map {
-  color: var(--primary-white-color);
+  color: var(--primary-color);
 }
 .address-link:hover,
 .address-link:focus {
@@ -173,11 +175,11 @@ body {
 .page-list-btn:hover,
 .page-list-btn:focus {
   background-color: var(--accent-color);
-  color: var(--primary-white-color);
+  color: var(--primary-color);
 }
 .page-list-btn.active {
   background-color: var(--accent-color);
-  color: var(--primary-white-color);
+  color: var(--primary-color);
 }
 .gallery-item {
   border: 1px solid;
