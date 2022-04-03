@@ -6,6 +6,7 @@
   --primary-white-color: #ffffff;
   --background-white-color: #ffffff;
   --background-secondary-color: #2f303a;
+  --btn-hover-color: #188ce8;
 }
 body {
   background-color: var(--background-white-color);
@@ -37,6 +38,10 @@ body {
   letter-spacing: 0.06em;
 
   cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--btn-hover-color);
 }
 /* ----------- LOGO ------------*/
 .logo {
